@@ -1,4 +1,4 @@
-# Pousada-Web
+# Pousada Secreta 
 Atividade da DevMedia, projeto utilizando apenas HTML e CSS.
 
 Página principal:

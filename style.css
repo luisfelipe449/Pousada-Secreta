@@ -1,6 +1,6 @@
 * { box-sizing: border-box;}
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   color: #3d3d3d;
   font-family: 'Source Sans Pro', sans-serif;
@@ -16,6 +16,7 @@ header{
     width: 100%;
     padding: .5rem;
     border-bottom: 1px solid #0a9077b3;
+    top: 0;
 }
 
 header a{
@@ -210,3 +211,66 @@ footer span{
     color: white;
     padding: 10px;
 }
+
+.quartos-titulo{
+    text-align: center;
+    margin: 80px 0 50px 0;
+}
+
+.quartos-titulo span{
+    font-size: 2.5rem;
+
+}
+
+.banner-quartos{
+    background-image: url('assets/img-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quartos-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+}
+
+.quartos-container img{
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+h3{
+    text-align: center;
+}
+
+.quartos-info{
+    margin-bottom: 150px;
+}
+
+.quartos-info ul{  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.quartos-info ul:last-child{
+    margin-bottom: 0px;
+}
+
+.quartos-info ul:last-child{
+    justify-content: flex-start;
+}
+
+.quartos-info li{
+    width: 25%;
+  text-align: left;
+  margin-top: 10px;
+}
+

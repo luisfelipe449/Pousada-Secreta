@@ -176,6 +176,7 @@ main{
 
 footer{
     background-color: #0a9077b3;
+    text-align: center;
 }
 
 .contatos{
@@ -260,9 +261,6 @@ h3{
     justify-content: space-between;
 }
 
-.quartos-info ul:last-child{
-    margin-bottom: 0px;
-}
 
 .quartos-info ul:last-child{
     justify-content: flex-start;
